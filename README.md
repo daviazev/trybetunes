@@ -2,7 +2,7 @@
 
 ## Sobre
 
-Trybetunes é um projeto desenvolvido durante o curso da Trybe, sendo o 4º do módulo de front-end. O objetivo era criar um app de músicas usando a API do Itunes.
+Trybetunes é um projeto desenvolvido durante o curso da Trybe, sendo o 4º do módulo de front-end. O objetivo era criar um app de músicas usando a API do iTunes.
 
 ## Tecnologias usadas
 
