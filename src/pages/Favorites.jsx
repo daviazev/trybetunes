@@ -5,8 +5,6 @@ import FavoritesCards from '../components/FavoritesCards';
 
 import '../styles/Favorites.css';
 
-// teste
-
 function Favorites() {
   const favoritesMusics = JSON.parse(localStorage.getItem('favorite-songs'));
 
