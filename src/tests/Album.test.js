@@ -30,10 +30,10 @@ describe('testes para a tela de álbum selecionado', () => {
     expect(getByTestId('album-name')).toBeInTheDocument();
 
     for (let index = 0; index < 44; index += 1) {
-      waitFor(() => expect(getByTestId(`audio-component-${index}`)))
+      waitFor(() => expect(screen.getByTestId(`audio-component-${index}`)))
     }
 
-    expect(getAllByTestId('white-heart')).toHaveLength(40);
-    expect(getAllByTestId('red-heart')).toHaveLength(3);
+    await waitFor(() => expect(getAllByTestId('white-heart')).toHaveLength(40));
+    await waitFor(() => expect(getAllByTestId('red-heart')).toHaveLength(3));
   })
 })
