@@ -1,0 +1,67 @@
+.main-container {
+  display: flex;
+}
+
+.profile-div-1 {
+  background-image: url('../images/result_background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33vh;
+  width: 83vw;
+}
+
+.profile-div-2 {
+  height: 77vh;
+  width: 83vw;
+}
+
+.user-photo {
+  border-radius: 50%;
+  height: 40vh;
+  left: 22vw;
+  position: absolute;
+  top: 10vh;
+  width: 40vh;
+}
+
+.profile-infos {
+  border-radius: 16px;
+  left: 90vh;
+  max-width: 80vh;
+  padding: 24px;
+  position: absolute;
+  top: 38vh;
+}
+
+.edit-button {
+  background-color: rgb(0 88 228);
+  border-radius: 100px;
+  color: white;
+  margin-top: 8px;
+  padding: 12px;
+  width: 130px;
+}
+
+.span {
+  display: block;
+  margin-bottom: 4px;
+  margin-top: 16px;
+}
+
+.description-textarea {
+  padding: 12px;
+}
+
+.profilee-inputs {
+  padding: 8px;
+  width: 300px;
+}
+
+.input-image {
+  left: 23.3vw;
+  padding: 6px;
+  position: absolute;
+  text-align: center;
+  top: 55vh;
+  width: 200px;
+}

@@ -1,0 +1,44 @@
+.main-div {
+  display: flex;
+}
+
+.musics-main-div {
+  background-image: url('../images/result_background.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.album-image {
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px black;
+  left: 290px;
+  position: absolute;
+  top: 90px;
+  width: 250px;
+}
+
+.album-infos {
+  color: white;
+  left: 582px;
+  position: absolute;
+  top: 100px;
+}
+
+.top-div {
+  align-items: center;
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  width: 83vw;
+}
+
+.div-musics-main {
+  background-color: white;
+  height: 70vh;
+  width: 83vw;
+}
+

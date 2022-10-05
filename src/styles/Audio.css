@@ -1,0 +1,24 @@
+.audio-div {
+  align-items: center;
+  display: flex;
+  gap: 100px;
+  margin: 16px;
+  width: 55.9;
+}
+
+audio {
+  width: 300px;
+}
+
+.trackname {
+  text-align: center;
+  width: 150px;
+}
+
+.hr {
+  width: 95%;
+}
+
+.audios-div {
+  margin-top: 36px;
+}

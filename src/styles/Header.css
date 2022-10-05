@@ -1,0 +1,22 @@
+.header {
+  padding: 8px;
+}
+
+.logo {
+  width: 130px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  text-align: center;
+  width: 200px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

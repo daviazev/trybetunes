@@ -1,0 +1,43 @@
+.artist-name-h1 {
+  padding: 18px;
+  text-align: center;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+.card-album {
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 8px;
+  padding: 10px;
+  width: 200px;
+}
+
+.card-album:hover {
+  background-color: rgb(100, 100, 100);
+  box-shadow: 2px 5px 15px rgb(68, 68, 68);
+  color: white;
+  transition: 0.3s;
+}
+
+.image-card {
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.search-an-artist-h1-msg {
+  align-items: center;
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+}
