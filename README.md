@@ -1,6 +1,6 @@
 # Trybetunes
 
-[Leia em Português](#português-🇧🇷) | [Read in English](#english-🇺🇸)
+[Leia em Português](#português-) | [Read in English](#english-)
 
 ---
 
